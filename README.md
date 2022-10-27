@@ -1,21 +1,35 @@
 
 # Data Structure And Algorithm in Javascript
 
-Data Structure
-    - primitive Data Structure
+## Data Structure
+    1. Primitive Data Structure
         - Integer
+
         - Float
+
         - Character
+
         - Pointer
-    - Non-Primitive Data Structure
+
+    2. Non-Primitive Data Structure
         - Arrays
+
         - Lists
+
             - Linear Lists
+
                 - Stacks
+
                 - Queues
+
             - Non-Linear Lists
+
                 - Graphs
+
                 - Trees
+
                 - Tables
+
                 - Sets
+                
         - Files
