@@ -1,7 +1,6 @@
 
 # Data Structure And Algorithm in Javascript
-
-### Data Structure
+## Data Structure
     1. Primitive Data Structure
         - Integer
         - Float
@@ -21,3 +20,11 @@
                 - Tables
                 - Sets
         - Files
+## All Operation Of Data Structure
+
+    * Traversal
+    * Insertion
+    * Deletion
+    * Searching
+    * Sorting
+    - Merging
