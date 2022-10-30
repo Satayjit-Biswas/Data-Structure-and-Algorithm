@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        let data = [35, 40, 24, 26, 98, 78, 86];
+        let d_item = 4;
+        document.write(`Old Data : ${data}</br>`);
+        for (let x = d_item; x < (data.length - 1); x++) {
+            data[x] = data[x + 1];
+        }
+        data.length = data.length - 1;
+        document.write(`New Data : ${data}</br>`);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

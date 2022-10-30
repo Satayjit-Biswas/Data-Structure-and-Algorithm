@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Traversing</title>
+    <script>
+
+        let data = [4, 5645, 565, 32, 456, 23, 67, 21, 33, 43, 12, 6, 8, 92];
+        for (let i = 0; i < data.length; i++) {
+            document.write(`Data ${data[i]} index is ${i} .</br>`);
+        }
+        const findData = () => {
+            let input = document.getElementById('input').value;
+            if (input < data.length && input == undefined) {
+                alert(data[input]);
+            } else {
+                alert("Sorry Your input not valid")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <br />
+    <form>
+        <input type="number" id="input" />
+        <button onclick="findData()"> Find Data </button>
+    </form>
+
+</body>
+
+
+</html>

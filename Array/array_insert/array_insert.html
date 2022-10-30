@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Insert</title>
+    <script>
+        let Data = [23, 45, 66, 31, 24, 78]
+        let newElement = 100;
+        let position = 3;
+        document.write(`Array = ${Data} <br>`);
+        for (let x = Data.length - 1; x >= position; x--) {
+            document.write(`Data = ${Data[x]} <br>`);
+            Data[x + 1] = Data[x];
+            if (x == position) {
+                Data[position] = newElement;
+            }
+        }
+        document.write(`<br>New Array = ${Data} `);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

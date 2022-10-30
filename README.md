@@ -27,4 +27,4 @@
     * Deletion
     * Searching
     * Sorting
-    - Merging
+    * Merging

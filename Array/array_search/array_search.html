@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let data = [32, 45, 23, 13, 28, 32, 78];
+        let f_data = 71;
+        let flag = 0;
+        document.write(`Data : ${data}</br>`);
+        for (let x = 0; x < (data.length); x++) {
+            if (data[x] == f_data) {
+                flag = 1;
+                break;
+            }
+        } if (flag == 1) {
+            document.write(`${f_data} is found.`);
+        } else {
+            document.write(`${f_data} is not found.`)
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
